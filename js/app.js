@@ -155,8 +155,8 @@ if (document.querySelector('.slider-review__body')) {
 	new Swiper('.slider-review__body', {
 		observer: true,
 		observeParents: true,
-		slidesPerView: 2,
-		spaceBetween: 80,
+		// slidesPerView: 2,
+		spaceBetween: 30,
 		watchOverflow: true,
 		speed: 800,
 		loop: true,
@@ -172,12 +172,12 @@ if (document.querySelector('.slider-review__body')) {
 		breakpoints: {
 			320: {
 				slidesPerView: 1,
-				spaceBetween: 40,
+				spaceBetween: 30,
 				autoHeight: false,
 			},
 			992: {
 				slidesPerView: 2,
-				spaceBetween: 80,
+				spaceBetween: 30,
 			},
 
 		},
